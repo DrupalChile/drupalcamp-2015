@@ -1,0 +1,9 @@
+.btn-camp-green {
+  text-transform: uppercase;
+  .button-variant(@btn-camp-green-color; @btn-camp-green-bg; @btn-camp-green-border);
+}
+
+.btn-camp-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  .button-size(20px; 50px; @font-size-large; @line-height-large; @btn-border-radius-large);
+}

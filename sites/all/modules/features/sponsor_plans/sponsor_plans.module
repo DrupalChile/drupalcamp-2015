@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sponsor plans feature.
+ */
+
+include_once 'sponsor_plans.features.inc';

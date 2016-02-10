@@ -1,0 +1,10 @@
+name = COD Community Override
+description = Community Overrides
+core = 7.x
+package = COD Overrides
+version = 7.x-1.0
+dependencies[] = cod_community
+features[features_api][] = api:2
+features[features_override_items][] = views_view.cod_community_attendees
+features[features_overrides][] = views_view.cod_community_attendees.display|default|display_options|arguments|entity_id|default_argument_type
+project path = sites/all/modules/features

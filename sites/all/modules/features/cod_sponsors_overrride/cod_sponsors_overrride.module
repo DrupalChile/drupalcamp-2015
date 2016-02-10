@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the COD Sponsors Overrride feature.
+ */
+
+include_once 'cod_sponsors_overrride.features.inc';

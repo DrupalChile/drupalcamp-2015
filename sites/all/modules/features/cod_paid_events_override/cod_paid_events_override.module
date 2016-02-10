@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the COD Paid Events Override feature.
+ */
+
+include_once 'cod_paid_events_override.features.inc';

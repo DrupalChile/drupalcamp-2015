@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the COD Chile News feature.
+ */
+
+include_once 'cod_chile_news.features.inc';

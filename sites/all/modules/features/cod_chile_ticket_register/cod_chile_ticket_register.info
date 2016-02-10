@@ -1,0 +1,12 @@
+name = COD Chile ticket_register
+description = Adds info to ticket registration entity
+core = 7.x
+package = COD Chile
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_ticket_full_name
+features[field_instance][] = ticket_registration-1-field_ticket_full_name
+features[field_instance][] = ticket_registration-2-field_ticket_full_name
+project path = sites/all/modules/features

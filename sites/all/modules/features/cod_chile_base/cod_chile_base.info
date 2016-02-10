@@ -1,0 +1,15 @@
+name = COD Chile Base
+description = Added common functionality
+core = 7.x
+package = COD Chile
+version = 7.x-1.0
+dependencies[] = entity_translation
+dependencies[] = features
+dependencies[] = text
+dependencies[] = title
+features[features_api][] = api:2
+features[field_base][] = title_field
+features[user_role][] = speaker
+features[user_role][] = test
+features[user_role][] = volunteer
+project path = sites/all/modules/features

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the COD News Override feature.
+ */
+
+include_once 'cod_news_override.features.inc';

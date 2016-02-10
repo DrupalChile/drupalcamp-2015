@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the COD Community Override feature.
+ */
+
+include_once 'cod_community_override.features.inc';

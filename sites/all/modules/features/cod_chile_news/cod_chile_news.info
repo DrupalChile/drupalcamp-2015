@@ -1,0 +1,15 @@
+name = COD Chile News
+core = 7.x
+package = COD Chile
+version = 7.x-1.0-beta1
+dependencies[] = cod_session
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = image
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:2
+features[field_instance][] = node-news-field_news_image
+features[image][] = news
+features[page_manager_handlers][] = node_view__panel_context_91b1ab4e-30ae-43f9-8af2-7bc16c1df129
+project path = sites/all/modules/features

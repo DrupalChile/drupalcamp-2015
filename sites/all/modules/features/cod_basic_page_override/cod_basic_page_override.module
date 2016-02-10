@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the COD Basic Page Override feature.
+ */
+
+include_once 'cod_basic_page_override.features.inc';
