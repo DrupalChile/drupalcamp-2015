@@ -204,7 +204,7 @@
 
 // Banner home
 .home-banner{
-	background: url(../images/bg-min.jpg) no-repeat fixed;
+	background: url(../images/camp_2.jpg) no-repeat fixed;
 	// background-size: cover;
 	background-size: 400%;
 	// background-position: 50% 0%;
@@ -649,25 +649,7 @@ ul.links.list-inline{
 	}
 }
 
-.node-type-session{
-	.pane-node-field-speakers{
-		.user-picture{
-			margin: 3em;
-		}
-		.field-name-field-profile-first, .field-name-field-profile-last{
-			text-transform: uppercase;
-			text-align: center;
-			font-weight: bold;
-			// border-bottom: 1px solid #eee;
-		}
-		.field-name-field-profile-job-title, .field-name-field-profile-org{
-			// text-transform: uppercase;
-			text-align: center;
-			// font-weight: bold;
-			// border-bottom: 1px solid #eee;
-		}
-	}
-}
+
 
 .view-id-cod_cl_users_list.view-display-id-speakers{
 	.views-row{
@@ -708,6 +690,67 @@ ul.links.list-inline{
 				color: #fff;
 
 			}
+		}
+	}
+}
+
+
+.node-type-session{
+	.pane-node-field-experience{
+		h2.pane-title{
+
+		}
+
+		.field-name-field-experience{
+
+		}
+
+	}
+	.pane-node-og-vocabulary .field-name-og-vocabulary{
+
+	}
+}
+
+.node-type-session{
+	.pane-node-field-speakers{
+		.user-picture{
+			width: 33%;
+			float: left;
+			padding: 1em;
+			// display: inline-block;
+			img{
+				// display: inline-block;
+			}
+		}
+		.field-name-field-profile-first, .field-name-field-profile-last{
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: bold;
+			display: inline-block;
+			padding-left: 5px;
+			padding-top: 2em;
+			
+		}
+		.field-name-field-profile-job-title, .field-name-field-profile-org{
+			display: inline-block;
+			// text-align: center;
+			padding-left: 5px;
+			width: 50%;
+			
+		}
+	}
+	.panel-pane{
+
+		h2.pane-title{
+			background-color: #eee;
+			padding: .5em;
+			font-size: 1em;
+			font-weight: 600;
+		}
+	}
+	.pane-node-og-vocabulary{
+		.field-name-og-vocabulary h2{
+			font-size: 1em;
 		}
 	}
 }

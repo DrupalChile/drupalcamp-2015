@@ -132,34 +132,37 @@
   <!-- <div class="main-container"> -->
 
     <div class="home-banner col-xs-12">
-      <div class="logo">
-        <?php print theme('image', array('path' => 'sites/all/themes/campchile/images/logo-1024.png', 'attributes' => array('class' => ''))) ?>
-      </div>
+<!--       <div>
+        <p><h1>Thanks!</h1></p>
+      </div> -->
+      <!-- <div class="logo"> -->
+        <?php // print theme('image', array('path' => 'sites/all/themes/campchile/images/logo-1024.png', 'attributes' => array('class' => ''))) ?>
+      <!-- </div> -->
 
-      <?php if ($logged_in): ?>
+      <?php //if ($logged_in): ?>
 
-        <div class="register-button">
+        <!-- <div class="register-button"> -->
 
 
-          <?php print l(t('Check the schedule'), 'node/87', array('attributes'=>array('class' => 'col-xs-12 col-sm-3 col-sm-pull-1 col-sm-push-2'))); ?>
+          <?php //print l(t('Check the schedule'), 'node/87', array('attributes'=>array('class' => 'col-xs-12 col-sm-3 col-sm-pull-1 col-sm-push-2'))); ?>
 
-          <?php print l(t('Register'), 'node/28', array('attributes'=>array('class' => 'col-xs-12 col-sm-3 col-sm-pull-1 col-sm-push-4'))); ?>
+          <?php //print l(t('Register'), 'node/28', array('attributes'=>array('class' => 'col-xs-12 col-sm-3 col-sm-pull-1 col-sm-push-4'))); ?>
 
-        </div>
+        <!-- </div> -->
 
-      <?php else: ?>
+      <?php //else: ?>
 
-        <div class="register-button">
-          <?php print l(t('Login'), 'user', array('attributes'=>array('class' => 'col-xs-12 col-sm-3 col-sm-pull-1 col-sm-push-2'))); ?>
-        </div>
+        <!-- <div class="register-button"> -->
+          <?php //print l(t('Login'), 'user', array('attributes'=>array('class' => 'col-xs-12 col-sm-3 col-sm-pull-1 col-sm-push-2'))); ?>
+        <!-- </div> -->
         
-        <div class="register-button">
-          <?php print l(t('Sign Up'), 'user/register', array('attributes'=>array('class' => 'col-xs-12 col-sm-3 col-sm-pull-1 col-sm-push-4'))); ?>
-        </div>
+        <!-- <div class="register-button"> -->
+          <?php //print l(t('Sign Up'), 'user/register', array('attributes'=>array('class' => 'col-xs-12 col-sm-3 col-sm-pull-1 col-sm-push-4'))); ?>
+        <!-- </div> -->
 
       <!-- </div> -->
 
-      <?php endif; ?>
+      <?php //endif; ?>
 
 
     </div>
