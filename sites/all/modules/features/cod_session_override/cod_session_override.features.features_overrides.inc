@@ -32,7 +32,6 @@ function cod_session_override_features_override_default_overrides() {
   $overrides["panelizer_defaults.node:session:default:default.display|content|new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61|configuration|formatter"] = 'image';
   $overrides["panelizer_defaults.node:session:default:default.display|content|new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61|configuration|formatter_settings|image_link"] = '';
   $overrides["panelizer_defaults.node:session:default:default.display|content|new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61|configuration|formatter_settings|image_style"] = 'cod_sponsors';
-  $overrides["panelizer_defaults.node:session:default:default.display|content|new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61|configuration|formatter_settings|text"] = 'Download [file:name]';
   $overrides["panelizer_defaults.node:session:default:default.display|content|new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61|configuration|label"] = 'hidden';
   $overrides["panelizer_defaults.node:session:default:default.display|content|new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61|configuration|override_title"] = 0;
   $overrides["panelizer_defaults.node:session:default:default.display|content|new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61|configuration|override_title_heading"] = 'h2';
@@ -42,7 +41,6 @@ function cod_session_override_features_override_default_overrides() {
 
   // Exported overrides for: variable
   $overrides["variable.node_options_schedule_item.value|2"] = 'panelizer';
-  $overrides["variable.node_options_session.value|0"] = 'panelizer';
   $overrides["variable.pathauto_node_schedule_item_pattern.value"] = 'schedule/[node:title]';
   $overrides["variable.pathauto_node_session_pattern.value"] = 'sessions/[node:title]';
 

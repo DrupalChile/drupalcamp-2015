@@ -5,6 +5,15 @@
  */
 
 /**
+ * Implements hook_ctools_plugin_api().
+ */
+function cod_session_override_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "page_manager" && $api == "pages_default") {
+    return array("version" => "1");
+  }
+}
+
+/**
  * Implements hook_field_default_field_instances_alter().
  */
 function cod_session_override_field_default_field_instances_alter(&$data) {
@@ -49,7 +58,6 @@ function cod_session_override_panelizer_defaults_override_alter(&$data) {
     $data['node:session:default:default']->display->content['new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61']->configuration['formatter'] = 'image'; /* WAS: 'hidden' */
     $data['node:session:default:default']->display->content['new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61']->configuration['formatter_settings']['image_link'] = ''; /* WAS: '' */
     $data['node:session:default:default']->display->content['new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61']->configuration['formatter_settings']['image_style'] = 'cod_sponsors'; /* WAS: '' */
-    $data['node:session:default:default']->display->content['new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61']->configuration['formatter_settings']['text'] = 'Download [file:name]'; /* WAS: '' */
     $data['node:session:default:default']->display->content['new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61']->configuration['label'] = 'hidden'; /* WAS: 'above' */
     $data['node:session:default:default']->display->content['new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61']->configuration['override_title'] = 0; /* WAS: '' */
     $data['node:session:default:default']->display->content['new-7414cec9-2fb3-489f-9af6-c9bc8ea7cc61']->configuration['override_title_heading'] = 'h2'; /* WAS: '' */
@@ -65,9 +73,6 @@ function cod_session_override_panelizer_defaults_override_alter(&$data) {
 function cod_session_override_strongarm_alter(&$data) {
   if (isset($data['node_options_schedule_item'])) {
     $data['node_options_schedule_item']->value[2] = 'panelizer'; /* WAS: '' */
-  }
-  if (isset($data['node_options_session'])) {
-    $data['node_options_session']->value[0] = 'panelizer'; /* WAS: '' */
   }
   if (isset($data['pathauto_node_schedule_item_pattern'])) {
     $data['pathauto_node_schedule_item_pattern']->value = 'schedule/[node:title]'; /* WAS: '[node:og-group-ref:0:url:path]/schedule/[node:title]' */
